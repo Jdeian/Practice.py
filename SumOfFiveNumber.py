@@ -1,0 +1,10 @@
+import myModule as mod
+a = mod.get_number("Enter the first number: ")
+b = mod.get_number("Enter the second number: ")
+c = mod.get_number("Enter the third number: ")
+d = mod.get_number("Enter the fourth number: ")
+e = mod.get_number("Enter the fifth number: ")
+total = mod.get_sum(a,b,c,d,e)
+mod.display_result("Sum: " + str(total))
+average = mod.get_average(total)
+mod.display_result("Average: " + str(average))
